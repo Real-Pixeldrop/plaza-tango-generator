@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Newsletter Plaza Tango</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 40px;
+    }
+    .email {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .hero {
+      height: 350px;
+      background: url('assets/yanina-neri.jpg') center/cover;
+      position: relative;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(74,26,31,0.7));
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 40px;
+      color: white;
+      text-align: center;
+    }
+    .hero-tag {
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: #C9A96E;
+      margin-bottom: 10px;
+    }
+    .hero-title {
+      font-family: Georgia, serif;
+      font-size: 48px;
+      margin: 0;
+      font-weight: normal;
+    }
+    .hero-edition {
+      font-size: 18px;
+      color: #C9A96E;
+      margin: 10px 0;
+    }
+    .hero-dates {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .hero-lieu {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-top: 5px;
+    }
+    .header {
+      background: #4A1A1F;
+      color: white;
+      padding: 30px 40px;
+      text-align: center;
+    }
+    .content {
+      padding: 40px;
+    }
+    .banner {
+      height: 150px;
+      overflow: hidden;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .content p {
+      line-height: 1.6;
+      color: #333;
+    }
+    .programme {
+      background: #4A1A1F;
+      color: white;
+      padding: 25px;
+      border-radius: 10px;
+      margin: 25px 0;
+    }
+    .programme-title {
+      color: #C9A96E;
+      font-size: 12px;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+    .programme p {
+      margin: 10px 0;
+      color: white;
+      font-size: 14px;
+    }
+    .programme strong {
+      color: #C9A96E;
+    }
+    .cta {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .cta a {
+      display: inline-block;
+      background: #C9A96E;
+      color: #000;
+      padding: 15px 35px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .footer-text {
+      text-align: center;
+      color: #666;
+      font-size: 13px;
+    }
+    .footer {
+      background: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="email">
+    <!-- HEADER -->
+    <div class="header">
+      <div class="hero-tag">SAVE THE DATE</div>
+      <h1 class="hero-title">PLAZA TANGO</h1>
+      <div class="hero-edition">5e édition</div>
+      <div class="hero-dates">24 · 25 · 26 AVRIL 2026</div>
+      <div class="hero-lieu">Belfort, France</div>
+    </div>
+
+    <!-- CONTENU -->
+    <div class="content">
+      <p>Cher(e) tanguero/a,</p>
+      <p>La <strong>5e édition du Festival Plaza Tango</strong> arrive. Trois jours de tango à Belfort, comme vous les aimez.</p>
+      <p>Cette année encore : des maestros internationaux, deux orchestres live, des milongas jusqu'au bout de la nuit, et cette ambiance chaleureuse qui fait la réputation du festival.</p>
+
+      <div class="banner">
+        <img src="https://real-pixeldrop.github.io/plaza-tango-generator/assets/img-nl1.jpg" alt="Milonga Plaza Tango">
+      </div>
+
+      <div class="programme">
+        <div class="programme-title">AU PROGRAMME</div>
+        <p><strong>Maestros</strong><br>
+        Eva Madar & Matteo Antonietti · Yanina Quiñones & Neri Piliú<br>
+        Sofia Saborido & Dario Da Silva · Marianne & Mauricio Borgarello</p>
+        <p><strong>Orchestres live</strong><br>
+        Sondertango · Silbando Orchestra</p>
+        <p><strong>3 milongas · 3 DJs</strong><br>
+        DJ Georges Galopa · DJ Pablo · DJette Raffaela</p>
+      </div>
+
+      <p>Masterclasses, conférence, apéro tango en plein air... Vous recevrez très bientôt la <strong>programmation complète</strong> et l'ouverture de la <strong>billetterie</strong>.</p>
+
+      <p><strong>En attendant, réservez vos dates : 24, 25 et 26 avril 2026.</strong></p>
+
+      <div class="cta">
+        <a href="https://www.instagram.com/plaza_tango/">SUIVRE SUR INSTAGRAM</a>
+      </div>
+
+      <p class="footer-text">Suivez <strong>@plaza_tango</strong> pour ne rien rater.</p>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      Festival Plaza Tango · Belfort, France<br>
+      <a href="#">Se désinscrire</a> · <a href="#">Voir en ligne</a>
+    </div>
+  </div>
+</body>
+</html>

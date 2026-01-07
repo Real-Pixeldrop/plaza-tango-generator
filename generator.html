@@ -2464,38 +2464,36 @@
         audienceLabel: 'Tous (1 250 contacts)',
         image: 'assets/img-nl1.jpg',
         body: `
-          <div class="email-hero"><img src="assets/img-nl1.jpg" alt="Plaza Tango"></div>
-
-          <p>Cher(e) tanguero/a,</p>
-          <p>Nous espérons que vous allez bien et que cette nouvelle année commence sous le signe du tango !</p>
-          <p>C'est avec une immense joie que nous vous annonçons la <strong>5e édition du Festival Plaza Tango</strong>. Déjà 5 ans... et nous n'avons pas l'intention de nous arrêter là !</p>
-
-          <div class="highlight">
-            <strong>Du 24 au 26 avril 2026</strong><br>
-            Belfort, France<br>
-            2 orchestres live · 8 maestros · 3 milongas
+          <!-- HERO FULL IMAGE -->
+          <div style="position: relative; width: 100%; height: 500px; background: url('assets/img-nl1.jpg') center/cover; border-radius: 12px; overflow: hidden;">
+            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(74,26,31,0.85));"></div>
+            <div style="position: relative; z-index: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding: 40px; color: white; text-align: center;">
+              <div style="font-size: 14px; letter-spacing: 3px; color: #C9A96E; margin-bottom: 10px;">SAVE THE DATE</div>
+              <h1 style="font-family: Georgia, serif; font-size: 42px; margin: 0 0 10px 0; font-weight: normal;">PLAZA TANGO</h1>
+              <div style="font-size: 18px; color: #C9A96E; margin-bottom: 15px;">5e édition</div>
+              <div style="font-size: 24px; font-weight: bold;">24 · 25 · 26 AVRIL 2026</div>
+              <div style="font-size: 16px; margin-top: 5px; opacity: 0.9;">Belfort, France</div>
+            </div>
           </div>
 
-          <h2>3 jours intenses de tango</h2>
-          <p>Nous avons préparé un programme aux petits oignons :</p>
+          <!-- CONTENU -->
+          <div style="padding: 30px 0;">
+            <p>Cher(e) tanguero/a,</p>
+            <p>La <strong>5e édition du Festival Plaza Tango</strong> arrive. Trois jours de tango à Belfort, comme vous les aimez.</p>
 
-          <p><strong>Vendredi 24 avril</strong> — Masterclasses (abrazo, tours, paradas) puis grande soirée d'ouverture avec le concert live de <strong>Sondertango</strong>, la Ronda des Maestros et milonga DJ Georges Galopa + DJette Raffaela.</p>
+            <div style="background: #4A1A1F; color: white; padding: 25px; border-radius: 10px; margin: 25px 0;">
+              <div style="color: #C9A96E; font-size: 13px; letter-spacing: 2px; margin-bottom: 15px;">AU PROGRAMME</div>
+              <p style="margin: 8px 0;"><strong style="color: #C9A96E;">Maestros</strong><br>Eva Madar & Matteo Antonietti · Yanina Quiñones & Neri Piliú<br>Sofia Saborido & Dario Da Silva · Marianne & Mauricio Borgarello</p>
+              <p style="margin: 8px 0;"><strong style="color: #C9A96E;">Orchestres live</strong><br>Sondertango · Silbando Orchestra</p>
+              <p style="margin: 8px 0;"><strong style="color: #C9A96E;">3 milongas</strong><br>DJ Georges Galopa · DJ Pablo · DJette Raffaela</p>
+            </div>
 
-          <p><strong>Samedi 25 avril</strong> — Masterclasses le matin, apéro tango Place d'Armes, puis soirée avec le concert <strong>Silbando Orchestra</strong>, le show Tu Abrazo et milonga jusqu'à 2h.</p>
+            <p style="text-align: center; margin: 30px 0;">
+              <a href="#" class="cta-btn">SUIVRE SUR INSTAGRAM</a>
+            </p>
 
-          <p><strong>Dimanche 26 avril</strong> — Masterclasses Valse et NéoTango le matin, puis milonga despedida l'après-midi avec DJ Georges, DJ Pablo et démo chacarera.</p>
-
-          <p>Au total : <strong>6 masterclasses</strong>, <strong>2 concerts live</strong>, <strong>3 milongas</strong>, des shows et démos !</p>
-
-          <h2>Billetterie bientôt disponible</h2>
-          <p>Nous finalisons les derniers détails et la billetterie ouvrira dans les prochaines semaines. Suivez-nous sur Instagram <strong>@plazatango</strong> pour être informé(e) dès l'ouverture !</p>
-
-          <p style="text-align: center;">
-            <a href="#" class="cta-btn">SUIVRE SUR INSTAGRAM</a>
-          </p>
-
-          <p>Nous avons vraiment hâte de vous retrouver sur la piste !</p>
-          <p><strong>L'équipe Plaza Tango</strong></p>
+            <p style="text-align: center; color: #666; font-size: 14px;">Billetterie bientôt disponible.<br>Suivez <strong>@plazatango</strong> pour ne rien rater.</p>
+          </div>
         `
       },
       {
